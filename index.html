@@ -1,51 +1,37 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AltSchool Assignment 1</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/flexboxgrid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
 </head>
-
 <body>
   <!--Header-->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>R</span>hoda<span>N</span>elson</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
+  <header id="main-header">
+    <div class="container">
+      <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h1><span class="primary-text">Rhoda</span>Nelson</h1>
+          </div>
+          <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+            <nav id="navbar">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="register.html">Services</a></li>
+                <li><a href="services.html">Services</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
 
-      </div>
-      </div>
     </div>
-  </section>
-  <!--End Header-->
-
-
-  <!--Hero Section-->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello, <span></span></h1>
-        <h1>My Name is <span></span></h1>
-        <h1>Rhomeinel <span></span></h1>
-        <a href="#about me" type="button" class="cta"> About Me</a>
-      </div>
-    </div>
-  </section>
-  <!--End Hero Section-->
-
-
-  <script src="script.js"></script>
+  </header>
+  
 </body>
-
 </html>
