@@ -109,3 +109,9 @@ img{
   padding:40px;
   opacity:0.9;
 }
+
+/* FOOTER */
+#main-footer{
+  background:#56a79a;
+  color:#fff;
+}
