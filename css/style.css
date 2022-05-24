@@ -116,6 +116,11 @@ img{
   color:#fff;
 }
 
+/* PAGE */
+#page{
+    margin-bottom:40px;
+}
+  
 /* CONTACT */
 .contact form{
   background:#333;
