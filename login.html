@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<!--Header-->
-<header id="main-header">
-    <div class="container">
-        <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
-            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                <h1><span class="primary-text">Rhoda</span>Nelson</h1>
-            </div>
-            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
-                <nav id="navbar">
-                    <ul>
-                        <li><a href="index.html">About Me</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li class="current"><a href="login.html">Login</a></li>
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="cal.html">Calculator</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header id="main-header">
+      <div class="container">
+        <div
+          class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg"
+        >
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h1><span class="primary-text">Rhoda</span>Nelson</h1>
+          </div>
+          <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+            <nav id="navbar">
+              <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="current"><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="cal.html">Calculator</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-    </div>
-</header>
-<!--End Header-->
+      </div>
+    </header>
+    <!--End Header-->
 
-<body>
-    <div class="container">
-        <h1>Please Sign In</h1>
-        <form>
-            <div class="form-control">
-                <input type="text" required>
-                <label>Email</label>
-            </div>
-
-            <div class="form-control">
-                <input type="password" required>
-                <label>Password</label>
-            </div>
-
-            <button class="btn">Sign In</button>
-
-            <P class="text">Don't have an account? <a href="register.html">Register</a> </p>
-        </form>
-    </div>
-    <script src"script.js"></script>
-
-
-</body>
-
+    <!-- MAIN PAGE -->
+    <section id="page" class="contact">
+      <div class="container">
+        <div class="row center-xs center-sm center-md center-lg">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2><span class="primary-text">Log</span>in</h2>
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+            <form>
+              <div>
+                <label for="name">Username</label><br>
+                <input type="text" name="name" required>
+              </div>
+              <div>
+                <label for="email">Password</label><br>
+                <input type="text" name="Password">
+              </div>
+              <button type="submit" name="button">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Main-->
+  </body>
 </html>

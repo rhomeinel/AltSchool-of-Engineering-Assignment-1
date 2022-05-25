@@ -1,20 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-* {
-  box-sizing: border-box;
+body{
+  font-family:'Open-sans', sans-serif;
+  font-size:17px;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
 }
 
-body {
-  background-color: steelblue;
-  color: #fff;
-  font-family: 'Muli', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+/* HEADER */
+#main-header{
+  border-bottom:1px solid #56a79a;
+}
+
+/* NAVBAR */
+#navbar{
+  text-transform:uppercase;
+}
+
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+}
+
+#navbar a{
+  text-decoration:none;
+  color:#888;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color:#56a79a;
+  border-bottom: 3px solid #56a79a;
+  padding-bottom:3px;
 }
 
 .container {
@@ -99,3 +117,12 @@ body {
   color: lightblue;
   transform: translateY(-30px);
 }
+
+/* MEDIA QUERIES */
+@media(max-width:800px){
+
+}
+
+@media(max-width:500px){
+}
+
